@@ -1,4 +1,4 @@
-# 凸优化课程：第一次大作业
+# 凸优化第一次大作业
 
 两题均采用未归一化负梯度下降。代码、全部实验结果与图表对应同一套配置。
 
@@ -11,17 +11,7 @@ python3 run_tests.py
 ```
 
 也可执行 `python3 -m pip install -e .`，然后使用 `convex-optim-run` 与 `convex-optim-plot`。
-核心实验依赖 NumPy 和 Matplotlib，测试使用标准库 unittest；无需 GPU，也无需 SciPy。
-
-## 与课件对齐的关键约定
-
-- 仅完成第一次作业截图中的两题，第 80 页的 Newton 方法属于第二次作业。
-- 精确搜索使用课件的 `argmin f(x-t*g)`；第二题用一维导数零点的区间二分数值计算该步长。
-- 两题主停止都采用 `||gradient|| <= 1e-6`；这是可修改的实验精度，不是老师指定数字。
-- 第一题另统计 `R_k <= 1e-8` 首达轮，作为相对误差诊断，不改变主停止。
-- 第一题 `x0=(gamma,1)`；第二题所有组 `x0=(1,1)`；回溯每轮从 `t=1` 开始。
-
-详细推导见 [课件对齐与公式](docs/COURSE_ALIGNMENT.md)，完整结果分析见 [阶段 2 结果讲义](docs/PHASE2_REPORT.md)。
+核心实验依赖 NumPy 和 Matplotlib，测试使用标准库 unittest
 
 ## 正式结果
 
