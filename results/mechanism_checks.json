@@ -1,0 +1,52 @@
+{
+  "same_trajectory_alpha_001_01_beta_03": true,
+  "same_trajectory_accepted_ratio_min": 0.23119711039275836,
+  "same_trajectory_accepted_ratio_max": 0.668399818839907,
+  "same_trajectory_last_rejected_ratio_min": -7.783654670889711,
+  "same_trajectory_last_rejected_ratio_max": -0.0646394240503221,
+  "f_star": 2.5592666966582156,
+  "lambda2_at_optimum": 11.51670013496197,
+  "local_axis2_stability_upper_step": 0.17366085567587838,
+  "tail_checks": [
+    {
+      "run_id": "exp_a0p01_b0p7",
+      "last_ten_steps_min": 0.16806999999999994,
+      "last_ten_steps_max": 0.16806999999999994,
+      "median_step": 0.16806999999999994,
+      "last_ten_steps_constant": true,
+      "axis2_multiplier_if_fixed_step": -0.9356117916830577,
+      "predicted_axis2_gap_ratio_if_dominant": 0.8753694247363815,
+      "last_ten_observed_gap_ratio_median": 0.8753694247362904
+    },
+    {
+      "run_id": "exp_a0p01_b0p9",
+      "last_ten_steps_min": 0.16677181699666577,
+      "last_ten_steps_max": 0.16677181699666577,
+      "median_step": 0.16677181699666577,
+      "last_ten_steps_constant": true,
+      "axis2_multiplier_if_fixed_step": -0.9206610073133534,
+      "predicted_axis2_gap_ratio_if_dominant": 0.8476166903872386,
+      "last_ten_observed_gap_ratio_median": 0.8476166903871254
+    },
+    {
+      "run_id": "exp_a0p1_b0p7",
+      "last_ten_steps_min": 0.11764899999999995,
+      "last_ten_steps_max": 0.16806999999999994,
+      "median_step": 0.14285949999999994,
+      "last_ten_steps_constant": false,
+      "axis2_multiplier_if_fixed_step": null,
+      "predicted_axis2_gap_ratio_if_dominant": null,
+      "last_ten_observed_gap_ratio_median": 0.3923992163401327
+    },
+    {
+      "run_id": "exp_a0p3_b0p7",
+      "last_ten_steps_min": 0.11764899999999995,
+      "last_ten_steps_max": 0.24009999999999992,
+      "median_step": 0.11764899999999995,
+      "last_ten_steps_constant": false,
+      "axis2_multiplier_if_fixed_step": null,
+      "predicted_axis2_gap_ratio_if_dominant": null,
+      "last_ten_observed_gap_ratio_median": 0.37473169509632864
+    }
+  ]
+}

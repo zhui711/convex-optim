@@ -1,0 +1,24 @@
+Command: python3 run_experiments.py
+
+quad_gamma_0p01                K= 478  |g|=9.966e-07  status=converged
+quad_gamma_0p1                 K=  60  |g|=8.347e-07  status=converged
+quad_gamma_one_third           K=  19  |g|=8.991e-07  status=converged
+quad_gamma_1                   K=   1  |g|=0.000e+00  status=converged
+quad_gamma_3                   K=  23  |g|=5.058e-07  status=converged
+quad_gamma_10                  K=  83  |g|=8.261e-07  status=converged
+quad_gamma_100                 K= 939  |g|=9.867e-07  status=converged
+exp_exact                      K=  21  |g|=2.885e-07  status=converged
+exp_a0p01_b0p3                 K=  18  |g|=8.489e-07  status=converged
+exp_a0p01_b0p5                 K=  33  |g|=5.702e-07  status=converged
+exp_a0p01_b0p7                 K= 202  |g|=9.802e-07  status=converged
+exp_a0p01_b0p9                 K= 186  |g|=9.251e-07  status=converged
+exp_a0p1_b0p3                  K=  18  |g|=8.489e-07  status=converged
+exp_a0p1_b0p5                  K=  32  |g|=6.610e-07  status=converged
+exp_a0p1_b0p7                  K=  36  |g|=5.209e-07  status=converged
+exp_a0p1_b0p9                  K=  51  |g|=9.983e-07  status=converged
+exp_a0p3_b0p3                  K=  19  |g|=9.789e-07  status=converged
+exp_a0p3_b0p5                  K=  33  |g|=6.850e-07  status=converged
+exp_a0p3_b0p7                  K=  32  |g|=6.014e-07  status=converged
+exp_a0p3_b0p9                  K=  38  |g|=8.702e-07  status=converged
+'created' timestamp seems very low; regarding as unix timestamp
+'modified' timestamp seems very low; regarding as unix timestamp

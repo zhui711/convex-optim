@@ -1,0 +1,26 @@
+Command: python3 run_tests.py
+
+test_analytic_optimum_and_positive_hessian (test_core.ExponentialTests.test_analytic_optimum_and_positive_hessian) ... ok
+test_axis_initialization_exact_one_step (test_core.ExponentialTests.test_axis_initialization_exact_one_step) ... ok
+test_backtracking_parameter_grid_and_armijo (test_core.ExponentialTests.test_backtracking_parameter_grid_and_armijo) ... ok
+test_different_alpha_can_select_identical_discrete_steps (test_core.ExponentialTests.test_different_alpha_can_select_identical_discrete_steps) ... ok
+test_exact_search_bracket_expansion (test_core.ExponentialTests.test_exact_search_bracket_expansion) ... ok
+test_exact_search_root_and_orthogonal_gradients (test_core.ExponentialTests.test_exact_search_root_and_orthogonal_gradients) ... ok
+test_gradient_and_hessian_finite_differences (test_core.ExponentialTests.test_gradient_and_hessian_finite_differences) ... ok
+test_stable_difference_identity_and_local_expansion (test_core.ExponentialTests.test_stable_difference_identity_and_local_expansion) ... ok
+test_stable_gap_matches_function_and_small_distance (test_core.ExponentialTests.test_stable_gap_matches_function_and_small_distance) ... ok
+test_cost_accounting_and_terminal_row (test_core.LoggingAndValidationTests.test_cost_accounting_and_terminal_row) ... ok
+test_initial_optimum_and_iteration_limit (test_core.LoggingAndValidationTests.test_initial_optimum_and_iteration_limit) ... ok
+test_invalid_inputs (test_core.LoggingAndValidationTests.test_invalid_inputs) ... ok
+test_analytic_step_minimizes_quadratic_line (test_core.QuadraticTests.test_analytic_step_minimizes_quadratic_line) ... ok
+test_closed_form_entire_trajectory (test_core.QuadraticTests.test_closed_form_entire_trajectory) ... ok
+test_gamma_one_any_initial_point_one_step (test_core.QuadraticTests.test_gamma_one_any_initial_point_one_step) ... ok
+test_gradient_stopping_first_hit (test_core.QuadraticTests.test_gradient_stopping_first_hit) ... ok
+test_reciprocal_parameters_same_normalized_rate (test_core.QuadraticTests.test_reciprocal_parameters_same_normalized_rate) ... ok
+test_relative_gap_diagnostic_first_hit (test_core.QuadraticTests.test_relative_gap_diagnostic_first_hit) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.574s
+
+OK
+

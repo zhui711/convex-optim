@@ -1,0 +1,3 @@
+# Actual experiment environment: Python 3.12.14
+numpy==2.3.5
+matplotlib==3.10.8

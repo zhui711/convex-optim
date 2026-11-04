@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "convex-optim-coursework"
+version = "0.2.0"
+description = "Reproducible gradient-descent experiments for two unconstrained convex optimization assignments"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "matplotlib>=3.7"]
+
+[project.scripts]
+convex-optim-run = "convex_optim.run_all:main"
+convex-optim-plot = "convex_optim.plot_results:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

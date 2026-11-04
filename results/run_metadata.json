@@ -1,0 +1,16 @@
+{
+  "generated_utc": "2026-11-04T11:38:07.151956+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "numpy": "2.3.5",
+  "matplotlib": "3.10.8",
+  "source_sha256": {
+    "src/convex_optim/__init__.py": "8c3dde8ce7e44e5a78a37ba6a3f766caa204f18623872ecc271677edbf848a44",
+    "src/convex_optim/line_search.py": "bf671e6033de46b6a8938a3784d27341b6226bcb57e6762209ecaaff0a37fe54",
+    "src/convex_optim/optimize.py": "fa801d6a7e5ad7ef6c3df83c1eb8e74dfcebacd4269c956a2483660d5af7b8d2",
+    "src/convex_optim/plot_results.py": "27a8b8e54a3b6f9c7e2d005bf53240bf217ea11ee5e4ea9c33cdf04909e24ef1",
+    "src/convex_optim/problems.py": "05bd973a42f5c66bca88f62dadedd97f9e2e2a2050ecdd808395e45f47cc2d56",
+    "src/convex_optim/run_all.py": "07ab7ddaea79ce1f65b4adf0287e57022efa37e517cba2131fdc109cff228405"
+  },
+  "analysis_evaluations_excluded_from_optimizer_counts": true
+}
